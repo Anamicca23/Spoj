@@ -1,7 +1,7 @@
 /*
 Anamika
 SPOJ solution
-TEST - Life, the Universe, and Everything
+PRIME1 - Prime Generator
 */
 
 #include<bits/stdc++.h>
