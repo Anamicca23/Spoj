@@ -1,0 +1,43 @@
+
+
+
+
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+bool checkprime(long int num){
+    if(num<=1)
+    return false;
+    else if(num==2)
+        return true;
+    else if(num%2==0)
+        return false;
+    else{
+        bool prime=true;
+        int divisor=3;
+        int upperlimit=sqrt(num)+1;
+        while(divisor<=upperlimit){
+            if(num%divisor==0)
+                return false;
+            divisor +=2;
+        }
+        return prime;
+    }
+}
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    {
+         int a,b,i,j,n; cin>>n;
+         for(int i=0;i<n;i++){
+                cin>>a>>b;
+                cout<<"\n";
+            for(j=a; j<=b;j++){
+                if(checkprime(j)){
+                cout<<j<<endl;
+                                }
+            }
+            }
+            }
+            return 0;
+         }
