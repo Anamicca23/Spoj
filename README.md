@@ -8,5 +8,7 @@ if it is wrong
 please comment or message me on 
 
 my email id
-Anamikaaca0306@gmail.com.so, that i can improve and rectify.
+Anamikaaca0306@gmail.com. 
+
+So, that i can improve and rectify.
 
